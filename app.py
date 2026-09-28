@@ -22,11 +22,9 @@ st.set_page_config(
 
 DB_USER = "avnadmin"
 DB_PASSWORD = "AVNS_TX2oBXmTGGjXba6p7j1"
-DB_HOST = "mysql-3a5ef2bc-binhquyroc.aivencloud.com"
+DB_HOST = "mysql-3a5ef2bc-binhquytoc.a.aivencloud.com"
 DB_PORT = 14483
-
-# Nếu database của bạn trên Aiven có tên khác thì đổi dòng này
-DB_NAME = "defaultdb"
+DB_NAME = "hotel_management"
 
 DB_SSL_CONFIG = {
     "ssl_disabled": False,
