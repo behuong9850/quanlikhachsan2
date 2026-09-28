@@ -1,5 +1,5 @@
 import streamlit as st
-"IMG_malibu1234.jpg"
+st.image("IMG_malibu1234.jpg")
 import mysql.connector
 from mysql.connector import Error, IntegrityError
 from datetime import datetime, date
