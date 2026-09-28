@@ -10,7 +10,7 @@ import pandas as pd
 # ============================================================
 
 st.set_page_config(
-    page_title="Hotel Manager",
+    page_title="Khách sạn Malibu",
     page_icon="🏨",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -24,7 +24,7 @@ DB_USER = "avnadmin"
 DB_PASSWORD = "AVNS_TX2oBXmTGGjXba6p7j1"
 DB_HOST = "mysql-3a5ef2bc-binhquytoc.a.aivencloud.com"
 DB_PORT = 14483
-DB_NAME = "hotel_management"
+DB_NAME = "Khách sạn Malibu"
 
 DB_SSL_CONFIG = {
     "ssl_disabled": False,
